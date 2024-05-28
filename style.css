@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    width: 30vw;
+    width: 35vw;
     height: 60vh;
     background-color: rgb(138, 100, 50);
     display: flex;
@@ -17,7 +17,9 @@ body{
     flex-direction: column;
     border-radius: 10px;
 }
-
+.buttons{
+    display: flex;
+}
 h1{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -38,10 +40,18 @@ h1{
     cursor: pointer;
 }
 
+#btn2{
+    width: 6vw;
+    height: 4vh;
+    border-radius: 7px;
+    cursor: pointer;
+}
 .text{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: start; */
+    text-align: start !important;
     font-size: 1.1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
